@@ -5,10 +5,10 @@ android/ffmpeg-*
 android/openssl-*
 ios/ffmpeg-*
 ios/openssl-*
-#extra
+extra
 .DS_Store
-#ijkmedia/ijkyuv/
-#ijkmedia/ijksoundtouch
+ijkmedia/ijkyuv/
+ijkmedia/ijksoundtouch
 ijkprof/android-ndk-profiler/
 
 # built application files
