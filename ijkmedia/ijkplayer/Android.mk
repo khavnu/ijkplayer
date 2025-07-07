@@ -80,6 +80,9 @@ LOCAL_SRC_FILES += ijkavutil/ijkstl.cpp
 LOCAL_SHARED_LIBRARIES := ijkffmpeg ijksdl
 LOCAL_STATIC_LIBRARIES := android-ndk-profiler ijksoundtouch
 
+LOCAL_LDFLAGS += -Wl,-z,max-page-size=65536
+LOCAL_LDFLAGS += -Wl,-z,common-page-size=65536
+
 LOCAL_MODULE := ijkplayer
 
 VERSION_SH  = $(LOCAL_PATH)/version.sh
